@@ -1,0 +1,16 @@
+.top-section{
+    background-image: url('bg1.jpg');
+    background-repeat: no-repeat;
+    height: 35em;
+}
+#nav-brand{
+color: black;   
+}
+
+
+#greeting1{
+color: white;
+}
+.test{
+    color:red;
+}

@@ -16,16 +16,16 @@ var page=window.location.href;
 var href=document.querySelectorAll("a");
 
 if(href[1]==page){
-    href[1].style.color="green";
+    href[1].style.color="red";
 }else if(href[2]==page){
-    href[2].style.color="green";
+    href[2].style.color="red";
 }
 else if(href[3]==page){
-    href[3].style.color="green";
+    href[3].style.color="red";
 }
 else if(href[4]==page){
-    href[4].style.color="green";
+    href[4].style.color="red";
 }
 else if(href[5]==page){
-    href[5].style.color="green";
+    href[5].style.color="red";
 }

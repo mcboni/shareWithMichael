@@ -1,16 +1,68 @@
 .top-section{
-    background-image: url('bg1.jpg');
+    background-image: url('bg3.png');
     background-repeat: no-repeat;
-    height: 35em;
+    background-position: center;
+    height: 40em;
+
 }
 #nav-brand{
-color: black;   
+color: black;  
+font-weight: 700; 
 }
+.nav-link{
+    color: black;
+}
+header{
+padding: .7em;
+border: 1px solid #eee;
+box-shadow: -1px 1px #eee,
+-2px 2px #eee,
+-3px 3px #eee,
+-4px 4px #eee,
+-5px 5px #eee;
 
+}
+@keyframes blink {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+  }
+.input-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 42px;
+    background-color: white;
+    margin-left: 8px;
+    animation: blink .6s linear infinite alternate;
+}
 
 #greeting1{
-color: white;
+color: #ffff;
+margin-top: 8em;
+font-weight: 800;
+font-family: 'Playfair Display', serif;
 }
-.test{
-    color:red;
+
+#greeting{
+    color: #ffff;
+    margin-top: 8em;
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    }
+
+#sub-text1{
+    color: #ffff;
+    opacity: .5;
+    font-family: 'Open Sans', sans-serif;
+}
+#btn1{
+    border: none;
+    margin-top: 2em;
+    width: 10em;
+    height: 3em;
+    border-radius: 1.5em;
+    background-color:#32cd32 ;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 }

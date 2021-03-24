@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Akinboni Olufoyinsola</title>
 </head>
 <header>
@@ -13,17 +22,19 @@
     <nav class="navbar navbar-expand-md">
 
         <!-- Inserting nav brand Image beofre brand title-->
-         <a id="nav-brand" class="navbar-brand" href="#">mcboni</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a id="nav-brand" class="navbar-brand" href="#">mcboni</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a id="nav-item1" class="nav-link" href="page1.html">Need a website?<span class="sr-only">(current)</span></a>
+                    <a id="nav-item" class="nav-link" href="page1.html">Need a website?<span
+                            class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a id="nav-item2" class="nav-link" href="page2.html">About Us </a>
+                    <a id="nav-item" class="nav-link" href="page2.html">About Us </a>
                 </li>
                 <li class="nav-item">
                     <a id="nav-item" class="nav-link" href="page3.html">Projects</a>
@@ -31,7 +42,7 @@
                 <li class="nav-item">
                     <a id="nav-item" class="nav-link" href="page4.html">Clients</a>
                 </li>
-                    <li class="nav-item">
+                <li class="nav-item">
                     <a id="nav-item" class="nav-link" href="page5.html">Blog</a>
                 </li>
             </ul>
@@ -39,13 +50,15 @@
         </div>
     </nav>
 </header>
+
 <body>
     <div class="container-fluid">
         <div class="row top-section">
             <div class="col-lg-12 col-md-12 col-sm-12  text-center">
-                <h2 id="greeting1">
-                    Welcome to my portfolio site
-                </h2>
+               <h2 id="greeting">Let's help you build that <span id="greeting1"></span><span class="input-cursor"></span></h2>
+                <h3 id="sub-text1" data-aos="zoom-in" data-aos-duration="3000">mcboni code hub</h3>
+                <input id="btn1" type="button" value="View Projects">
+
             </div>
         </div>
     </div>
@@ -56,5 +69,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="class.js"></script>
+<script src="text.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript" src="aos.js"></script>
 
 </html>
